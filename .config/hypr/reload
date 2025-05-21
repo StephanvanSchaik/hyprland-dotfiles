@@ -1,0 +1,7 @@
+#/bin/sh
+killall hypridle
+killall waybar
+killall hyprpaper
+hyprctl dispatch exec hyprpaper
+hyprctl dispatch exec waybar
+hyprctl dispatch exec hypridle
