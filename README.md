@@ -52,6 +52,7 @@ Copy the files from `.config` to `~/.config`:
 
 ```
 cp .config/hypr ~/.config
+cp .config/swaync ~/.config
 cp .config/waybar ~/.config
 ```
 
