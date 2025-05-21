@@ -68,7 +68,7 @@ You might have to adjust `~/.config/hypr/hyprland.conf` to properly configure yo
 
 In addition, you might also have to adjust `~/.config/waybar/config` to change what applications are shown on your dock.
 
-Wallpapers can be downloaded from [Wallhaven](wallhaven.cc). After downloading some wallpapers, you also have to configure `~/.config/hypr/hyprpaper.conf`.
+Wallpapers can be downloaded from [Wallhaven](https://wallhaven.cc). After downloading some wallpapers, you also have to configure `~/.config/hypr/hyprpaper.conf`.
 
 # Key bindings
 
