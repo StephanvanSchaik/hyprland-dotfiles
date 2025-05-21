@@ -34,6 +34,8 @@ gui-libs/xdg-desktop-portal-hyprland ~amd64
 gui-apps/hypridle ~amd64
 app-misc/brightnessctl ~amd64
 gui-apps/hyprpaper ~amd64
+dev-libs/hyprgraphics ~amd64
+dev-libs/wayland-protocols ~amd64
 ```
 
 Install the software:
