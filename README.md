@@ -42,6 +42,12 @@ Install the software:
 sudo emerge adwaita-icon-theme-legacy alacritty brightnessctl fontawesome gamescope greetd hypridle hyprlock hyprpaper hyprshot inconsolata nm-applet noto pavucontrol pcmanfm playerctl swaync tango-icon-theme tango-icon-theme-extras waybar wofi xdg-desktop-portal-hyprland
 ```
 
+In addition, you may also want to install `wttrbar` to be able to display the weather (assuming you have `cargo` installed, if not use [rustup](https://rustup.rs) to install Rust):
+
+```
+cargo install --git https://github.com/bjesus/wttrbar
+```
+
 Copy the files from `.config` to `~/.config`:
 
 ```
