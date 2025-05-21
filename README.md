@@ -1,3 +1,10 @@
+# About
+
+These are my configuration files for Hyprland to achieve a look and feel as shown in the screenshot.
+This is heavily inspired by MacOS Sequoia, graphically, and i3wm, in terms of key bindings, using [waybar-macos-sequoia](https://github.com/kamlendras/waybar-macos-sequoia) as a starting point.
+
+![An example of what Hyprland looks like with the configuration files provided](screenshots/screenshot.png)
+
 # Installation
 
 Add the following lines to: `/etc/portage/package.use/hypr`:
@@ -42,8 +49,6 @@ cp .config/hypr ~/.config
 cp .config/waybar ~/.config
 ```
 
-You might have to adjust `~/.config/hypr/hyprland.conf` to properly configure your monitors.
-
 Set up `greetd` by writing the following to `/etc/greetd/config.toml`:
 
 ```
@@ -56,6 +61,12 @@ user = "user"
 ```
 
 Replace the username `user` with the username of the account you are using for both the `command` and `user` variables.
+
+# Further configuration
+
+You might have to adjust `~/.config/hypr/hyprland.conf` to properly configure your monitors.
+
+In addition, you might also have to adjust `~/.config/waybar/config` to change what applications are shown on your dock.
 
 # Key bindings
 
