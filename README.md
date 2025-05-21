@@ -70,6 +70,12 @@ In addition, you might also have to adjust `~/.config/waybar/config` to change w
 
 Wallpapers can be downloaded from [Wallhaven](https://wallhaven.cc). After downloading some wallpapers, you also have to configure `~/.config/hypr/hyprpaper.conf`.
 
+I am using the following wallpapers:
+
+ * https://wallhaven.cc/w/5g22q5
+ * https://wallhaven.cc/w/we1oyp
+ * https://wallhaven.cc/w/yx2eqx
+
 # Key bindings
 
 The key bindings are somewhat similar to the i3wm defaults. `Win` is the modifier key.
