@@ -39,7 +39,7 @@ gui-apps/hyprpaper ~amd64
 Install the software:
 
 ```
-sudo emerge alacritty brightnessctl gamescope greetd hypridle hyprlock hyprpaer hyprshot nm-applet pavucontrol pcmanfm playerctl swaync waybar wofi xdg-desktop-portal-hyprland
+sudo emerge adwaita-icon-theme-legacy alacritty brightnessctl fontawesome gamescope greetd hypridle hyprlock hyprpaper hyprshot inconsolata nm-applet noto pavucontrol pcmanfm playerctl swaync tango-icon-theme tango-icon-theme-extras waybar wofi xdg-desktop-portal-hyprland
 ```
 
 Copy the files from `.config` to `~/.config`:
