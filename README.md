@@ -53,9 +53,9 @@ cargo install --git https://github.com/bjesus/wttrbar
 Copy the files from `.config` to `~/.config`:
 
 ```
-cp .config/hypr ~/.config
-cp .config/swaync ~/.config
-cp .config/waybar ~/.config
+cp -r .config/hypr ~/.config
+cp -r .config/swaync ~/.config
+cp -r .config/waybar ~/.config
 ```
 
 Set up `greetd` by writing the following to `/etc/greetd/config.toml`:
