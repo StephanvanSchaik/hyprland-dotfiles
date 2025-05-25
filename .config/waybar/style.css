@@ -1,0 +1,160 @@
+window#waybar.top {
+  font-size: 16px;
+  min-height: 0;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+window#waybar.top>box {
+  padding: 4px 10px 4px 10px;
+}
+
+window#waybar.bottom {
+  font-size: 16px;
+  min-height: 0;
+  border-radius: 0.5rem;
+}
+
+window#waybar.bottom>box {
+  padding: 10px;
+}
+
+window#waybar {
+  background: rgba(0x80, 0, 0x80, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+#custom-notification {
+  font-family: "Noto Sans", "NotoSansMono Nerd Font", serif;
+}
+
+tooltip {
+  background: #000000;
+}
+tooltip label {
+  color: #fff;
+}
+
+#workspaces button {
+	background: rgba(0x20, 0, 0x20, 0.5);
+	padding: 0 5px;
+	margin: 0 3px;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	box-shadow: none;
+	text-shadow: none;
+}
+
+#workspaces button:hover {
+	background: rgba(0xff, 0, 0xff, 0.5);
+	border: none;
+}
+
+#workspaces button.active {
+	background: rgba(0xa0, 0, 0xa0, 0.5);
+	border: none;
+}
+
+/*#hyprland-workspaces button.focused {
+  background: #64727d;
+  border: 3px solid white;
+}*/
+
+#clock,
+#custom-weather {
+	padding: 0 10px;
+}
+
+#clock,
+#battery,
+#backlight,
+#pulseaudio,
+#tray,
+#custom-notification,
+#custom-weather,
+#hyprland-window,
+#hyprland-workspaces {
+	font-family: "Noto Sans", "Font Awesome 6 Free", serif;
+	margin: 2px;
+	padding-left: 1px;
+	padding-right: 1px;
+	color: #fff;
+}
+
+.modules-left > widget:first-child > #workspaces {
+  margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+  margin-right: 0;
+}
+
+#clock,
+#custom-weather,
+#hyprland-window,
+#hyprland-workspaces {
+	font-size: 14px;
+}
+
+#battery icon {
+  color: red;
+}
+
+#battery.charging,
+#battery.plugged {
+  color: #ffffff;
+  background-color: #26a65b;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+#battery.warning:not(.charging) {
+  background-color: #f53c3c;
+  color: #ffffff;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#battery.critical:not(.charging) {
+  background-color: #f53c3c;
+  color: #ffffff;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+label:focus {
+  background-color: #000000;
+}
+
+#network.disconnected {
+  background-color: #f53c3c;
+}
+
+#temperature.critical {
+  background-color: #eb4d4b;
+}
+
+#idle_inhibitor.activated {
+  background-color: #ecf0f1;
+  color: #2d3436;
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: #eb4d4b;
+}
