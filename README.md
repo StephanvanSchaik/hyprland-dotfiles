@@ -65,7 +65,7 @@ Set up `greetd` by writing the following to `/etc/greetd/config.toml`:
 vt = 7
 
 [default_session]
-command = "sh -c 'while true; do Hyprland --config /home/user/.config/hypr/hyprland.conf &>/dev/null; done'"
+command = "sh -c 'while true; do dbus-run-session Hyprland --config /home/user/.config/hypr/hyprland.conf &>/dev/null; done'"
 user = "user"
 ```
 
