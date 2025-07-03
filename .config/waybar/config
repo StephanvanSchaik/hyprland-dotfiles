@@ -16,6 +16,7 @@
       "pulseaudio",
       "custom/notification",
       "custom/weather",
+      "idle_inhibitor",
       "clock"
     ],
     "hyprland/window": {
